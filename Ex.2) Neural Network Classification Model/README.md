@@ -16,8 +16,8 @@ You are required to help the manager to predict the right group of the new custo
 1 Input Layer<br>
 4 hidden layers - 64 neurons, 32 neurons, 16 neurons, 8 neurons<br>
 1 Output layer - 4 neurons<br>
-![nn](https://user-images.githubusercontent.com/65499285/188654163-d2bbb0c3-97c7-440e-97a5-2eb55ec69fe9.svg)
 
+![nn](https://user-images.githubusercontent.com/65499285/189124834-1efbdb4c-79ac-48b2-bcbb-b1d13ff640b0.svg)
 
 ## DESIGN STEPS
 
