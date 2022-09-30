@@ -120,7 +120,22 @@ predictions = pred_probabilities > 0.5
 print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
 ```
-
+```python3
+import random
+list_dir=["uninfected","parasitized"]
+dir_=(random.choice(list_dir))
+para_img= imread(train_path+
+                 '/'+dir_+'/'+
+                 os.listdir(train_path+'/'+dir_)[random.randint(0,10000)])
+img  = tf.convert_to_tensor(np.asarray(para_img))
+img = tf.image.resize(img,(130,130))
+img=img.numpy()
+pred=bool(model.predict(img.reshape(1,130,130,3))<0.5 )
+plt.title("Model prediction: "+("Parasitized" if pred  else "Uninfected")+"\nActual Value: "+str(dir_))
+plt.axis("off")
+plt.imshow(img)
+plt.show()
+```
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
