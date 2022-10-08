@@ -98,7 +98,7 @@ plt.show()
 
 ### Mean Square Error
 
-Include the mean square error
+![image](https://user-images.githubusercontent.com/65499285/194717806-9c7b1a87-b4a4-49f0-bdbb-d7a087e2af4e.png)
 
 ## RESULT
 Hence, we have successfully created a Simple RNN model for Stock Price Prediction.
