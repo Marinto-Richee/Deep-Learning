@@ -10,7 +10,8 @@ We aim to build a RNN model to predict the stock prices of Google using the data
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+![20221010_200204](https://user-images.githubusercontent.com/65499285/194890471-ef0632eb-d68e-4cd4-bea8-13158b3ef2f5.jpg)
+
 <br>
 
 60 Inputs with 60 Neurons in the RNN Layer (hidden) and one neuron for the Output Layer.
