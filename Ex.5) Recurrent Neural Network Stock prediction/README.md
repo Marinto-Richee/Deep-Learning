@@ -10,6 +10,9 @@ To develop a Recurrent Neural Network model for stock price prediction.
 
 Include the neural network model diagram.
 
+![image](https://user-images.githubusercontent.com/65499285/194799172-5e048bb8-7e8a-40cb-ac3f-d0b943292da7.png)
+
+
 ## DESIGN STEPS
 
 ### STEP 1:
