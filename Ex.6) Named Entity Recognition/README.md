@@ -134,8 +134,10 @@ plt.show()
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-
-
+![image](https://user-images.githubusercontent.com/65499285/197232302-88fc13ba-85dd-4ff6-a282-382d67cfa27d.png)
 ### Sample Text Prediction
+![image](https://user-images.githubusercontent.com/65499285/197232140-77b888f0-1cc5-40e0-835d-a054e5415243.png)
+
 
 ## RESULT
+Hence we have built a model for Named Entity Recognition successfully. 
