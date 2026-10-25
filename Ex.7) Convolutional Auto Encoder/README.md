@@ -6,10 +6,10 @@ To develop a convolutional autoencoder for image denoising application.
 
 ## Problem Statement and Dataset
 We use the mnish dataset for this implementation of Convolutional Auto Encoder. We ignore the classification of each image, as we aim to denoise rather than classify.
-<br>We load the images, and add noises to the data. The noised images will provide to be the input, and the orignial untouched images will be passed as the output. 
-Same goes with the test/validation data aswell.
+<br>We load the images, and add noises to the data. The noised images will provide to be the input, and the original untouched images will be passed as the output. 
+Same goes with the test/validation data as well.
 <br>The model is built using Conv2D, MaxPooling2D, and UpSampling2D layers. We are not using dense layers for this implementation. 
-The rest of the flow, remains the same as we do for any other Deep Neural Implementataion.
+The rest of the flow, remains the same as we do for any other Deep Neural Implementation.
 
 ## Convolution Autoencoder Network Model
 
@@ -110,4 +110,4 @@ plt.show()
 ![image](https://user-images.githubusercontent.com/65499285/200238208-81b7ba36-86b2-46f5-9d33-604ae7437534.png)
 
 ## RESULT
-Hence, we have sucessfully implemented a Convolutional Auto Encoder for Denoising.
+Hence, we have successfully implemented a Convolutional Auto Encoder for Denoising.
