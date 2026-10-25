@@ -22,7 +22,7 @@ Create a list of words, and tags. Also find the number of unique words and tags 
 ### STEP 4:
 Create a dictionary for the words and their Index values. Do the same for the tags as well.
 ### STEP 5:
-Now we move to moulding the data for training and testing. We do this by padding the sequences. This is done to acheive the same length of input data.
+Now we move to moulding the data for training and testing. We do this by padding the sequences. This is done to achieve the same length of input data.
 ### STEP 6:
 We build a build a model using Input, Embedding, Bidirectional LSTM, Spatial Dropout, Time Distributed Dense Layers.
 ### STEP 7:

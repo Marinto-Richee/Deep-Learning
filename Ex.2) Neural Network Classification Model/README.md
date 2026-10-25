@@ -26,11 +26,11 @@ We start by reading the dataset using pandas.
 ### STEP 2:
 The dataset is then preprocessed, i.e, we remove the features that don't contribute towards the result.
 ### STEP 3:
-The null values are removed aswell
+The null values are removed as well
 ### STEP 4:
 The resulting data values are then encoded. We, ensure that all the features are of the type int, or float, for the model to better process the dataset.
 ### STEP 5:
-Once the preprocessing is done, we split the avaliable data into Training and Validation datasets.
+Once the preprocessing is done, we split the available data into Training and Validation datasets.
 ### STEP 6:
 The Sequential model is then build using 4 dense layers(hidden) and, 1 input and output layer.
 ### STEP 7:

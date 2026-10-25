@@ -69,7 +69,7 @@ image_gen = ImageDataGenerator(rotation_range=20, # rotate the image 20 degrees
                                rescale=1/255, # Rescale the image by normalzing it.
                                shear_range=0.1, # Shear means cutting away part of the image (max 10%)
                                zoom_range=0.1, # Zoom in by 10% max
-                               horizontal_flip=True, # Allo horizontal flipping
+                               horizontal_flip=True, # Allow horizontal flipping
                                fill_mode='nearest' # Fill in missing pixels with the nearest filled value
                               )
 ```
